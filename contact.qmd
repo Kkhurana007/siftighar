@@ -1,0 +1,39 @@
+---
+title: "Sifti Ghar - Agro-Ecotourism"
+format: html
+---
+
+# Welcome to Sifti Ghar
+
+Experience the charm of rural Punjab at Sifti Ghar, where lush green farm landscapes, authentic culture, and hands-on farming activities come together to create unforgettable memories.
+
+---
+
+## Contact Us
+
+- **Email**: [siftighar@gmail.com](mailto:siftighar@gmail.com)
+- **Phone**: [Insert Phone Number]
+- **Website**: [Insert Website URL]
+
+---
+
+## Location
+
+Find us on the map below:
+
+```{r}
+#| echo: false
+#| fig-align: center
+#| fig-width: 8
+#| fig-height: 6
+#| fig-cap: "Sifti Ghar Location"
+
+library(leaflet)
+
+leaflet() %>%
+  addTiles() %>%
+  addMarkers(
+    lng = 74.5929375, 
+    lat = 31.6064375, 
+    popup = "Sifti Ghar"
+  )

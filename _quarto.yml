@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+  preview: 
+    port: 4200
+
+website:
+  title: "STIFI"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Homepage
+      - href: team.qmd
+        text: Our Team
+      - href: activities.qmd
+        text: Activities
+      - href: blog.qmd
+        text: Blog
+      - href: contact.qmd
+        text: Contact Us
+      - href: booking.qmd
+        text: Online Booking
+
+  page-footer:
+    left:
+      - text: Ethics
+        href: ethics.qmd
+      - text: Privacy policy
+        href: policy.qmd
+      - text: Terms of Service
+        href: terms.qmd
+
+    
+    center: |
+      @2025 Sifti-Ghar <br>
+       All rights reserved. <br>
+
+editor: visual
+
+
+execute:
+  freeze: true
+  increment: true
+  cache: true
+  
+      
+
+
+
+
