@@ -25,7 +25,7 @@
     "href": "contact.html",
     "title": "Sifti Ghar - Agro-Ecotourism",
     "section": "",
-    "text": "Experience the charm of rural Punjab at Sifti Ghar, where lush green farm landscapes, authentic culture, and hands-on farming activities come together to create unforgettable memories.\n\n\n\n\nEmail: siftighar@gmail.com\nPhone: [Insert Phone Number]\nWebsite: [Insert Website URL]\n\n\n\n\n\nFind us on the map below:\n#| echo: false #| fig-align: center #| fig-width: 8 #| fig-height: 6 #| fig-cap: “Sifti Ghar Location”\nlibrary(leaflet)\nleaflet() %&gt;% addTiles() %&gt;% addMarkers( lng = 74.5929375, lat = 31.6064375, popup = “Sifti Ghar” )"
+    "text": "Experience the charm of rural Punjab at Sifti Ghar, where lush green farm landscapes, authentic culture, and hands-on farming activities come together to create unforgettable memories.\n\n\n\n\nEmail: siftighar@gmail.com\nPhone: [Insert Phone Number]\nWebsite: [Insert Website URL]\n\n\n\n\n\nWe are located at the address below:\n\n\n\n\n\n\nAccess your Sifti Ghar account to manage bookings, view your itinerary, and more.\n\n\n&lt;label for=\"email\"&gt;Email:&lt;/label&gt;\n&lt;input type=\"email\" id=\"email\" name=\"email\" required class=\"form-control\"&gt;\n\n\n&lt;label for=\"password\"&gt;Password:&lt;/label&gt;\n&lt;input type=\"password\" id=\"password\" name=\"password\" required class=\"form-control\"&gt;\n\n\nLogin"
   },
   {
     "objectID": "contact.html#contact-us",
@@ -39,7 +39,14 @@
     "href": "contact.html#location",
     "title": "Sifti Ghar - Agro-Ecotourism",
     "section": "",
-    "text": "Find us on the map below:\n#| echo: false #| fig-align: center #| fig-width: 8 #| fig-height: 6 #| fig-cap: “Sifti Ghar Location”\nlibrary(leaflet)\nleaflet() %&gt;% addTiles() %&gt;% addMarkers( lng = 74.5929375, lat = 31.6064375, popup = “Sifti Ghar” )"
+    "text": "We are located at the address below:"
+  },
+  {
+    "objectID": "contact.html#login-to-your-account",
+    "href": "contact.html#login-to-your-account",
+    "title": "Sifti Ghar - Agro-Ecotourism",
+    "section": "",
+    "text": "Access your Sifti Ghar account to manage bookings, view your itinerary, and more.\n\n\n&lt;label for=\"email\"&gt;Email:&lt;/label&gt;\n&lt;input type=\"email\" id=\"email\" name=\"email\" required class=\"form-control\"&gt;\n\n\n&lt;label for=\"password\"&gt;Password:&lt;/label&gt;\n&lt;input type=\"password\" id=\"password\" name=\"password\" required class=\"form-control\"&gt;\n\n\nLogin"
   },
   {
     "objectID": "index.html",
@@ -51,8 +58,8 @@
   {
     "objectID": "team.html",
     "href": "team.html",
-    "title": "About",
+    "title": "Our Team",
     "section": "",
-    "text": "About this site"
+    "text": "S Kashmir Singh (CEO)\nDr. Gurleen Kaur (Marketing Manager)\nS Akashdeep Singh (Sales Head cum Farm Manager)\nS Daljit Singh (Accountant)\nS Baljit Singh (Hospitality Manager)\n\nAdvisors/Consultants\nDr. Gurlal Singh\nEr. Karanvir Singh\nDr. Arshdeep Singh"
   }
 ]

@@ -160,10 +160,27 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="location" class="level2">
 <h2 class="anchored" data-anchor-id="location">Location</h2>
-<p>Find us on the map below:</p>
-<p>#| echo: false #| fig-align: center #| fig-width: 8 #| fig-height: 6 #| fig-cap: “Sifti Ghar Location”</p>
-<p>library(leaflet)</p>
-<p>leaflet() %&gt;% addTiles() %&gt;% addMarkers( lng = 74.5929375, lat = 31.6064375, popup = “Sifti Ghar” )</p>
+<p>We are located at the address below:</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d4040.8363017351844!2d74.58880841345!3d31.608521360741438!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391913007d4609b9%3A0xdca2ac764e52b72e!2sSifti%20Ghar!5e0!3m2!1sen!2sca!4v1739225198393!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+</iframe>
+<hr>
+</section>
+<section id="login-to-your-account" class="level2">
+<h2 class="anchored" data-anchor-id="login-to-your-account">Login to Your Account</h2>
+<p>Access your Sifti Ghar account to manage bookings, view your itinerary, and more.</p>
+<form action="/login" method="post">
+<div class="form-group">
+<pre><code>&lt;label for="email"&gt;Email:&lt;/label&gt;
+&lt;input type="email" id="email" name="email" required class="form-control"&gt;</code></pre>
+</div>
+<div class="form-group">
+<pre><code>&lt;label for="password"&gt;Password:&lt;/label&gt;
+&lt;input type="password" id="password" name="password" required class="form-control"&gt;</code></pre>
+</div>
+<button type="submit" class="btn btn-primary">
+Login
+</button>
+</form>
 
 
 </section>
@@ -260,7 +277,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/Kkhurana007\.github\.io\/siftighar\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
